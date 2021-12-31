@@ -6,6 +6,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
+
+Ticker: EU01
+Pledge 250.00k ₳
+Margin 1%
+Fixed Cost 340 ₳
+
+
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
