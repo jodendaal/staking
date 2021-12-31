@@ -10,7 +10,10 @@ Thank you for choosing Zacs Stake Pool and allowing us to be a part of this jour
 
 
 Ticker: ZACS
+
 Pledge 250.00k ₳
+
 Margin 1%
+
 Fixed Cost 340 ₳
 
