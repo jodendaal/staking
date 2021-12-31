@@ -1,4 +1,4 @@
-## Earn up to 5.5% on your Cardano.
+## Earn up to 5.5%
 
 You can stake your ada
 
