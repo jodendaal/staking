@@ -1,6 +1,6 @@
-## Earn up to 5.5%
+## Zacs StakePool
 
-You can stake your ada
+You can stake your ada and earn up to 5.5%
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
