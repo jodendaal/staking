@@ -1,6 +1,6 @@
-## Earn up to 5.5% staking your ADA. It's 100% risk free.
+## Earn up to 5.5% on your Cardano.
 
-You can use the [editor on GitHub](https://github.com/jodendaal/staking/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can stake your ada
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
