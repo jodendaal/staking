@@ -1,4 +1,4 @@
-## Zacs StakePool
+## Zacs Stake Pool
 
 You can stake your ada and earn up to 5.5%
 
