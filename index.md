@@ -1,45 +1,12 @@
 ## Zacs Stake Pool
 
-You can stake your ada and earn up to 5.5%
+We are committed to providing the best Cardano Staking experience possible. We will achieve this by providing excellent performance at the most competitive sustainable rates. As Cardano grows, we will grow with it. From Oracles to Hydra Heads and everything in between, we will do whatever it takes to give life to the Cardano Protocols. Thank you for choosing Sunshine Stake Pool and allowing us to be a part of this journey.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Ticker
 
 
-Ticker: EU01
+Ticker: ZACS
 Pledge 250.00k ₳
 Margin 1%
 Fixed Cost 340 ₳
 
-
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jodendaal/staking/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
