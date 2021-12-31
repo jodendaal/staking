@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Earn up to 5.5% staking your ADA. It's 100% risk free.
 
 You can use the [editor on GitHub](https://github.com/jodendaal/staking/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
