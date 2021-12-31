@@ -1,6 +1,4 @@
 theme: jekyll-theme-cayman
-title:        Project or Site name
-tagline:      Stake your Cardano
-baseurl:      ""
-paginate:     1
-locale:       "en"
+title:  "get" 
+description:      "Stake your Cardano"
+
