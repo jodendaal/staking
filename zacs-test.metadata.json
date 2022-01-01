@@ -2,6 +2,6 @@
   "name": "ZACS",
   "description": "Stake and earn up to 5.5%",
   "ticker": "ZACS",
-  "homepage": "https://staking.zacsmarket.com/",
+  "homepage": "https://staking.zacsmarket.com",
   "extended": "https://staking.zacsmarket.com/zacs-testnet.extended.json"
 }
