@@ -1,37 +1,598 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-{% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Reliable stake pool for cardano ADA rewards">
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-     
+	<meta name="author" content="Zacs">
+
+	<title>Zacs Stake Pool | Cardano (ADA) Stake Pool</title>
+
+	<!-- Mobile Specific Meta
+		================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Favicon -->
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" /> -->
+
+	<!-- CSS
+		================================================== -->
+	<!-- Fontawesome Icon font -->
+	<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+	<!-- bootstrap.min css -->
+	<link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="plugins/animate-css/animate.css">
+	<!-- Magnific popup css -->
+	<link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+	<!-- Slick Carousel -->
+	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!--
+	    Start Preloader
+	    ==================================== -->
+	<div class="preloader">
+		<div class="sk-cube-grid">
+			<div class="sk-cube sk-cube1"></div>
+			<div class="sk-cube sk-cube2"></div>
+			<div class="sk-cube sk-cube3"></div>
+			<div class="sk-cube sk-cube4"></div>
+			<div class="sk-cube sk-cube5"></div>
+			<div class="sk-cube sk-cube6"></div>
+			<div class="sk-cube sk-cube7"></div>
+			<div class="sk-cube sk-cube8"></div>
+			<div class="sk-cube sk-cube9"></div>
+		</div>
+	</div>
+	<!-- End Preloader
+        ==================================== -->
+
+ <!--
+Welcome Slider
+==================================== -->
+
+<section class="hero-area overlay" style="background-image: url('images/banner/hero-area.jpg');">
+	<!-- <video autoplay muted loop class="hero-video">
+		<source src="images/banner/hero-video.mp4" type="video/mp4">
+	</video> -->
+	<div class="block">
+		<!-- <div class="video-button">
+			<a class="popup-video" href="https://www.youtube.com/watch?v=jrkvirglgaQ">
+				<i class="tf-ion-play"></i>
+		</a>
+		</div> -->
+		<img src="images/logo.svg"   class="img-responsive" alt="Responsive image"
+		 alt="Website Logo" style="max-height:300px" /> 
+		<h1>Earn up to 5.5%</h1>
+		<p>Let your money work for you. Stake with us today and start earning</p>
+		<a data-scroll href="#portfolio" class="btn btn-transparent">Start Earning</a>
+		<a data-scroll href="#homesection" class="btn btn-transparent">Learn More</a>
+	</div>
+</section>
+
+ <!-- 
+  Fixed Navigation
+  ==================================== -->
+    <header id="navigation" class="navbar navigation">
+        <div class="container">
+            <div class="navbar-header">
+              <!-- responsive nav button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- /responsive nav button -->
     
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-    </header>
+                <!-- logo -->
+                <a class="navbar-brand logo" href="#body">
+                     <img src="images/logo.svg" alt="Website Logo" /> 
+                  
+                </a>
+            <!-- /logo -->
+        </div>
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+        <!-- main nav -->
+        <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+            <ul id="nav" class="nav navbar-nav navigation-menu">
+                <li><a data-scroll href="#body">Home</a></li>
+				<li><a data-scroll href="#portfolio">Pool ID</a></li>
+                <li><a data-scroll href="#about">About Us</a></li>
+                <li><a data-scroll href="#services">FAQ</a></li>
+            </ul>
+        </nav>
+        <!-- /main nav -->
+  
+      </div>
+  </header>
+  <!--
+  End Fixed Navigation
+  ==================================== -->
 
-       <footer class="site-footer">
-        
-      </footer> 
-    </main>
-  </body>
+
+  <!-- Start Portfolio Section
+		=========================================== -->
+
+<section class="portfolio section bg-2" id="portfolio">
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-12">
+				<!-- section title -->
+				<div class="title text-center">
+					<h2>Pool <span class="color">Details</span></h2>
+					<div class="border"></div>
+				</div>
+
+				<div style="text-align: center;" class="title">
+					<a href="https://testnet.adatools.io/pools/562b00ecd9002670e3445cab55421672d926f4e43dc131f51fac828e">
+					 <h2 >ZACS</h2>
+					</a>
+					 <p >
+						<a href="https://testnet.adatools.io/pools/562b00ecd9002670e3445cab55421672d926f4e43dc131f51fac828e">
+						<h3 style="  word-break: break-all;	white-space: normal;">562b00ecd9002670e3445cab55421672d926f4e43dc131f51fac828e</h3>
+					</a>
+					</p>
+
+				</div>
+				<!-- /section title -->
+			</div> <!-- /end col-lg-12 -->
+		</div> <!-- end row -->
+		 <div class="row" >
+			<div class="col-md-12">
+				<div class="portfolio-filter">
+					<section id="counter" class="parallax-section  section">
+						<div class="container">
+							<div class="row">
+							
+								<!-- first count item -->
+								<a href="https://testnet.adatools.io/pools/562b00ecd9002670e3445cab55421672d926f4e43dc131f51fac828e">
+									<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
+										<div class="counters-item">
+											<i class="tf-ion-android-happy"></i>
+											<span data-speed="3000" data-to="320">ZACS</span>
+											<h3>Ticker</h3>
+										</div>
+									</div>
+								</a>
+								<!-- end first count item -->
+							
+								<!-- second count item -->
+								<a href="https://testnet.adatools.io/pools/562b00ecd9002670e3445cab55421672d926f4e43dc131f51fac828e">
+								<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
+									<div class="counters-item">
+										<i class="tf-ion-archive"></i>
+										<span data-speed="3000" data-to="565">1%</span>
+										<h3>Margin</h3>
+									</div>
+								</div>
+								</a>
+								<!-- end second count item -->
+							
+								<!-- third count item -->
+								<a href="https://testnet.adatools.io/pools/562b00ecd9002670e3445cab55421672d926f4e43dc131f51fac828e">
+								<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
+									<div class="counters-item">
+										<i class="tf-ion-thumbsup"></i>
+										<span data-speed="3000" data-to="95">₳ 1000,00</span>
+										<h3>Pledge</h3>
+										
+									</div>
+								</div>
+							</a>
+								<!-- end third count item -->
+								
+								<!-- fourth count item -->
+								<a href="https://testnet.adatools.io/pools/562b00ecd9002670e3445cab55421672d926f4e43dc131f51fac828e">
+								<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+									<div class="counters-item kill-margin-bottom">
+										<i class="tf-ion-coffee"></i>
+										<span data-speed="3000" data-to="2500">~5%</span>
+										<h3>ROI</h3>
+									</div>
+								</div>
+							</a>
+								<!-- end fourth count item -->
+								
+							</div> 		<!-- end row -->
+						</div>   	<!-- end container -->
+					</section>   <!-- end section -->
+				</div>
+			</div>
+		</div> 
+		
+	</div> <!-- end container -->
+</section> <!-- End section -->
+
+
+<!--
+		Start About Section
+		==================================== -->
+		<section class="bg-one about section" id="homesection">
+			<div class="container">
+				<div class="row">
+				
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
+						<h2>About <span class="color">Us</span> </h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+					
+					<!-- About item -->
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
+						<div class="block">							
+							<div class="icon-box">
+								<i class="tf-tools"></i>
+							</div>					
+							<!-- Express About Yourself -->
+							<div class="content text-center">
+								<h3 class="ddd">We're Reliable</h3>								
+								<p>
+									We ensure maximum uptime, ensuring you get maximum rewards
+								</p>
+							</div>
+						</div>
+					</div> 
+					<!-- End About item -->
+					
+					<!-- About item -->
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+						<div class="block">
+							<div class="icon-box">
+								<i class="tf-strategy"></i>
+							</div>
+							<!-- Express About Yourself -->
+							<div class="content text-center">
+								<h3>We're Professional</h3>
+								<p>Run by a devops and software engineer with 20 years of experience in providing top class enterprise desktop and Saas solutions.</p>
+							</div>
+						</div>
+					</div> 
+					<!-- End About item -->
+					
+					<!-- About item -->					
+					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+						<div class="block kill-margin-bottom">
+							<div class="icon-box">
+								<i class="tf-anchor2"></i>
+							</div>
+							<!-- Express About Yourself -->
+							<div class="content text-center">
+								<h3>We're Change</h3>
+								<p>We want to be part of building the future with you and bring about positive global change. </p>
+							</div>
+						</div>
+					</div> 
+					<!-- End About item -->
+					
+				</div> 		<!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
+
+<section class="section about-2 padding-0 bg-dark" id="about">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 padding-0 ">
+				<img class="img-responsive" src="images/about/about-business-man.jpg" alt="">
+			</div>
+			<div class="col-md-6">
+				<div class="content-block">
+					<h2>We’re A Community Stake Pool.</h2>
+					<p>We started this stakepool because we believe in cardano and it's mission.  </p>
+					<p>We wanted to do our bit by helping to secure, decentralise and spread the word about the cardano network.</p>
+					<p>We aim to provide a reliable service at the most competitive rates.</p>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="media">
+								<div class="pull-left">
+									<i class="tf-circle-compass"></i>	
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Help Decentralisation</h4>
+									<p>By increasing the number of stake pools we enhance the security and decentralisation of the network.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="media">
+								<div class="pull-left">
+									<i class="tf-hotairballoon"></i>	
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Assist Projects</h4>
+									<p>We aim to assist upcoming projects where we can.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--
+Start Call To Action
+==================================== -->
+<section class="call-to-action section-sm bg-1 overly">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>What is Cardano</h2>
+				<p>
+					Cardano is a proof-of-stake (POS) blockchain platform: the first to be founded on peer-reviewed research, developed through evidence-based methods. It combines pioneering technologies to provide unparalleled security and sustainability to decentralized applications, systems, and societies. Besides, with more than 1700 stakepools, Cardano is the most decentralized blockchain of the world.
+					
+					With a leading team of engineers, Cardano exists to redistribute power from unaccountable structures to the margins – to individuals – and be an enabling force for positive change and progress.</p>
+				<a  target="_blank" href="https://cardano.org/" class="btn btn-main">Learn More</a>
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+<!-- Start Services Section
+==================================== -->
+
+<section id="services" class="bg-one section">
+	<div class="container">
+		<div class="row">
+			
+			<!-- section title -->
+			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+				<h2>FAQ</h2>
+				<div class="border"></div>
+			</div>
+			<!-- /section title -->
+			
+            <!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-globe"></i>
+					</div>
+					<h3>WHAT ARE THE RISKS?</h3>
+					<p>Staking your cardano is 100% safe, your funds are always in your control and do not leave your wallet.
+						You should never send your ADA to someone in order to stake. 
+					</p>
+					
+				</div>
+			</article>
+            <!-- End Single Service Item -->
+            
+            <!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-ion-laptop"></i>
+					</div>
+					<h3>WHAT HAPPENS IF I ADD MORE ADA TO MY WALLET?</h3>
+					<p>When you add ADA to your existing wallet, it is then automatically placed into the pool you are currently delegating to ZACS, and rewards will be calculated.
+					</p>
+				</div>
+			</article>
+            <!-- End Single Service Item -->
+            
+            <!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-genius"></i>
+					</div>
+					<h3>DO I NEED TO CLAIM MY REWARDS?</h3>
+					<p>With Cardano and ZACS you never need to claim your rewards. Rewards are automatically deposited into your wallet every 5 days (epoch).</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+			
+			<!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-dial"></i>
+					</div>
+					<h3>WHAT PERCENTAGE OF RETURN ON STAKE SHOULD I EXPECT?</h3>
+					<p>Cardano.org states a 4.6% return on stake. Although currently 5% to 5.5% is common in the industry. Rewards may vary per epoch.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+			
+			<!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-target3"></i>
+					</div>
+					<h3>WHEN WILL I START EARNING REWARDS?</h3>
+					<p>It takes four epochs before you start earning rewards. This can take 20-25 days, and will continue to pay you (even if you leave) for all epochs you participated in. One of the many benefits of Cardano.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+			
+			<!-- Single Service Item -->
+			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+				<div class="service-block text-center kill-margin-bottom">
+					<div class="service-icon text-center">
+						<i class="tf-lifesaver"></i>
+					</div>
+					<h3>CAN I LOSE ADA WHILE STAKING?</h3>
+					<p>Your staked ADA is completely safe! Your staked funds remain solely in your control - stake pools never have access to your funds or rewards. Additionally, you can never lose funds by staking them.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+				
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+	
+
+
+
+
+
+<!--
+Start Counter Section
+==================================== -->
+		
+
+
+<!-- 
+Start Our Team
+=========================================== -->
+
+
+
+<!-- Start Testimonial
+		=========================================== -->
+
+<section id="testimonial" class="testimonial overly section bg-2">
+	<div class="container">
+		<div class="row">				
+			<div class="col-lg-12">
+				<!-- testimonial wrapper -->
+				<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+				
+				
+					<!-- testimonial single -->
+					<div class="item text-center">
+						
+						<!-- client photo -->
+						<div class="client-thumb">
+							<img src="images/team/charles1.jpg" class="img-responsive" alt="Meghna">
+						</div>
+						<!-- /client photo -->
+						
+						<!-- client info -->
+						<div class="client-info">
+							<div class="client-meta">
+								<h3>Charles Hoskinson</h3>
+								
+							</div>
+							<div class="client-comment">
+								<p>"I started with Bitcoin and I left Bitcoin not because I was pushed out… I left Bitcoin because there’s no way to use Bitcoin to do the things that I wanted to do."</p>
+							</div>
+						</div>
+						<!-- /client info -->
+					</div>
+					<!-- /testimonial single -->
+				
+					<!-- testimonial single -->
+					<div class="item text-center">
+						
+						<!-- client photo -->
+						<div class="client-thumb">
+							<img src="images/team//charles2.jpg" class="img-responsive" alt="Meghna">
+						</div>
+						<!-- /client photo -->
+						
+						<!-- client info -->
+						<div class="client-info">
+							<div class="client-meta">
+								<h3>Charles Hoskinson</h3>
+							</div>
+							<div class="client-comment">
+								<p>Crypto is unstoppable. Crypto is the future.</p>
+							</div>
+						</div>
+						<!-- /client info -->
+					</div>
+					<!-- /testimonial single -->
+					
+				</div>		<!-- end testimonial wrapper -->
+			</div> 		<!-- end col lg 12 -->
+		</div>	    <!-- End row -->
+	</div>       <!-- End container -->
+</section>    <!-- End Section -->
+
+<!-- Start Blog Section =========================================== -->
+
+
+	
+
+<!-- end Contact Area
+		========================================== -->
+
+<footer id="footer" class="bg-one">
+	<div class="container">
+		<div class="row wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-lg-12">
+
+				<!-- Footer Social Links -->
+				<div class="social-icon">
+					<ul class="list-inline">
+						<li><a href="https://www.facebook.com/ZacsStaking"><i class="tf-ion-social-facebook"></i></a></li>
+						<li><a href="https://twitter.com/CryptoTimTim"><i class="tf-ion-social-twitter"></i></a></li>
+					</ul>
+				</div>
+				<!--/. End Footer Social Links -->
+
+				<!-- copyright -->
+				<div class="copyright text-center">
+					<a href="index.html">
+						 <img src="images/logo.svg" height="100px" alt="Meghna" />  
+						
+					</a>
+					<br />
+
+					<p>Design And Developed with Love
+						&copy; <script>
+							document.write(new Date().getFullYear())
+						</script>. All Rights Reserved.</p>
+				</div>
+				<!-- /copyright -->
+
+			</div> <!-- end col lg 12 -->
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+</footer> <!-- end footer -->
+	    
+		
+		
+		
+		
+		
+		
+		
+
+
+		<!-- 
+		Essential Scripts
+		=====================================-->
+		
+		<!-- Main jQuery -->
+		<script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
+		<!-- Bootstrap 3.1 -->
+		<script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+		<!-- Slick Carousel -->
+		<script type="text/javascript" src="plugins/slick-carousel/slick/slick.min.js"></script>
+		<!-- Portfolio Filtering -->
+		<script type="text/javascript" src="plugins/filterzr/jquery.filterizr.min.js"></script>
+		<!-- Smooth Scroll -->
+		<script type="text/javascript" src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+		<!-- Magnific popup -->
+		<script type="text/javascript" src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<!-- Google Map API -->
+		<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+		<!-- Sticky Nav -->
+		<script type="text/javascript" src="plugins/Sticky/jquery.sticky.js"></script>
+		<!-- Number Counter Script -->
+		<script type="text/javascript" src="plugins/count-to/jquery.countTo.js"></script>
+		<!-- wow.min Script -->
+		<script type="text/javascript" src="plugins/wow/dist/wow.min.js"></script>
+		<!-- Custom js -->
+		<script type="text/javascript" src="js/script.js"></script>
+		
+    </body>
 </html>
