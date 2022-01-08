@@ -1,19 +1,23 @@
 {
+  "adapools": {
+          "url_png_icon_64x64": "https://staking.zacsmarket.com/logo64x64.png",
+          "social": {
+          "twitter_handle": "CryptoTimTim",
+          "youtube_handle": "channel/UCw9nom5v84WxJbbvVb7OFtQ"
+          }
+      
+  },
   "info": {
-    "url_png_icon_64x64": "http(s) url to pool icon",
-    "url_png_logo": "http(s) url to pool logo",
-    "location": "Country, Continent",
+    "url_png_icon_64x64": "https://staking.zacsmarket.com/logo64x64.png",
+    "url_png_logo": "https://staking.zacsmarket.com/logo-300.png",
+    "location": "Germany",
     "social": {
-      "twitter_handle": "",
-      "telegram_handle": "",
-      "facebook_handle": "",
-      "youtube_handle": "",
-      "twitch_handle": "",
-      "discord_handle": "",
-      "github_handle": ""
+      "twitter_handle": "CryptoTimTim",
+      "facebook_handle": "ZacsStaking",
+      "youtube_handle": "channel/UCw9nom5v84WxJbbvVb7OFtQ"
     },
     "company": {
-      "name": "",
+      "name": "Zacs Staking",
       "addr": "",
       "city": "",
       "country": "",
@@ -21,15 +25,11 @@
       "vat_id": ""
     },
     "about": {
-      "me": "",
-      "server": "",
-      "company": ""
-    },
-    "rss": "http(s) url to valid RSS feed"
+      "me": "Doing my bit to help the decentralisation of the network",
+      "server": "ZACS",
+      "company": "Zacs Staking"
+    }
   },
-  "telegram-admin-handle": [
-    ""
-  ],
   "my-pool-ids": [
     "562b00ecd9002670e3445cab55421672d926f4e43dc131f51fac828e"
   ],
